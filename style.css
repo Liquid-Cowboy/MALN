@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 24px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body.index {
+    background-image: url(minuit.jpg),
+        linear-gradient(180deg, #E66AE9 0%, #6C6AE9 100%);
+    background-repeat: no-repeat,
+        repeat;
+    background-position: 80% 75%,
+        center center;
+    background-attachment: fixed, scroll;
+    min-height: 200vh;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    place-items: center;
+}
+
+.header a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.information {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+}
+
+.information h1 {
+    display: grid;
+    grid-column: 1/-1;
+    place-items: center;
+}

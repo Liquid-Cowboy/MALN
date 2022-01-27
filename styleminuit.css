@@ -96,8 +96,31 @@
     left: 50%;
     transform: translateX(-50%);
     grid-column: 1/-1;
-    position: relative;
+    position: absolute;
+    
+    
 }
+
+.return {
+    display: block;
+    width: 274px;
+    height: 174px;
+    border-radius: 20px;
+    background-color: #190F2F;
+    position: absolute;
+    left: 80%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.return-button {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
 
 .image-location {
     object-fit: cover;
@@ -175,6 +198,7 @@
 
 
 .titles {
+    display: inline-block;
     position: absolute;
     top: 30px;
     left: 140px;
@@ -188,6 +212,8 @@
     font-weight: bolder;
     transform: rotate(-15deg)
 }
+
+
 
 .presentation {
     grid-column: span 4;
@@ -386,9 +412,47 @@ h1 {
 }
 
 .newsimages {
+    object-fit: cover;
+    width: 106.65%;
+    height: 382px;
+    left: 50%;
+    transform: translateX(-50%);
+    grid-column: 1/-1;
+    position: relative;
+}
 
+.line-up-background {
     display: inline-block;
     width: 106.65%;
+    height: 382px;
+    left: 50%;
+    transform: translateX(-50%);
+    grid-column: 1/-1;
+    position: relative;
+    background-image: url("xutos.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.le-festival-background {
+    display: inline-block;
+    width: 106.65%;
+    height: 382px;
+    left: 50%;
+    transform: translateX(-50%);
+    grid-column: 1/-1;
+    position: relative;
+    background-image: url("minuitpubllic 1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.trouve-nous-background {
+    display: inline-block;
+    width: 106.65%;
+    height: 382px;
     left: 50%;
     transform: translateX(-50%);
     grid-column: 1/-1;

@@ -17,7 +17,7 @@
     background-size: cover;
     margin: 0;
     display: grid;
-    grid-template-columns: repeat(9, 1fr);
+    grid-template-columns: repeat(9, 140px);
     grid-template-rows: auto 450px;
     row-gap: 50px;
     column-gap: 30px;
@@ -82,7 +82,7 @@
     background-size: cover;
     margin: 0;
     display: grid;
-    grid-template-columns: repeat(9, 1fr);
+    grid-template-columns: repeat(9, 140px);
     grid-template-rows: auto 450px;
     row-gap: 50px;
     column-gap: 30px;
@@ -257,7 +257,7 @@
 
 .intro {
     display: grid;
-    grid-template-columns: repeat(9, 1fr);
+    grid-template-columns: repeat(9, 140px);
     grid-auto-rows: 1fr;
     row-gap: 50px;
     column-gap: 30px;
@@ -381,14 +381,14 @@ a :hover path {
 footer {
     background-color: blanchedalmond;
     display: grid;
-    grid-template-columns: repeat(9, 1fr);
+    grid-template-columns: repeat(9, 140px);
     position: relative;
 }
 
 .news {
     display: grid;
     padding: 50px;
-    grid-template-columns: repeat(9, 1fr);
+    grid-template-columns: repeat(9, 140px);
     grid-auto-rows: auto;
     row-gap: 50px;
     column-gap: 30px;
